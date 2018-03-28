@@ -1,29 +1,5 @@
 '''
-Interact with GPG Encrypted password files in YAML format.
-
-This script provides readonly access to a structured password
-file in YAML syntax.
-
-The YAML file has a structure like:
-
-# Comments start with a "#"
-DESCRIPTION: |
-  This is a human readable description of this file.
-
-RECIPIENTS:
-  - list of
-  - recipients of
-  - the encrypted file
-
-some_key:
-  user: name of account (required)
-  password: the password or phrase (required)
-  name: human readable name of entry (optional)
-  note: |
-    optional note. The pipe char indicates that
-    line breaks will be preserved, but the
-    preceding space on each line will not.
-  other: Other properties may be added as needed.
+Suggest a file name using some best practices.
 
 '''
 
